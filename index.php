@@ -1,11 +1,32 @@
 <?php
+$users = [
+    [
+        "username" => "Lea",
+        "email" => "lea@example.com",
+        "age" => 34,
+    ],
+    [
+        "username" => "Marie",
+        "email" => "marie@example.com",
+        "age" => 30,
+    ],
+    [
+        "username" => "Emily",
+        "email" => "emily@example.com",
+        "age" => 28,
+    ],
+    [
+        "username" => "Lisa",
+        "email" => "lisa@example.com",
+        "age" => 40,
+    ],
+];
 
 $recipes = [
     [
         "id" => 1,
         "title" => "Pasta Bolognese",
         "image" => "https://assets.afcdn.com/recipe/20130627/5710_w1024h768c1cx1485cy2482cxt0cyt0cxb2500cyb3750.jpg",
-        "username" => "Lea",
         "category" => "Entrées",
         "is_enabled" => true,
     ],
@@ -13,28 +34,27 @@ $recipes = [
         "id" => 2,
         "title" => "Tiramisu",
         "image" => "https://assets.afcdn.com/recipe/20161123/1509_w1024h768c1cx1920cy2880.jpg",
-        "username" => "Marie",
         "category" => "Desserts",
-        "is_enabled" => false,
+        "is_enabled" => true,
     ],
     [
         "id" => 3,
         "title" => "Tomates farcies",
         "image" => "https://assets.afcdn.com/recipe/20161128/8069_w1024h768c1cx1872cy2808.jpg",
-        "username" => "Emily",
         "category" => "Plats",
         "country" => "Français",
-        "is_enabled" => true,
+        "is_enabled" => false,
     ],
     [
         "id" => 4,
         "title" => "Gratin de pommes de terre",
         "image" => "https://assets.afcdn.com/recipe/20180123/77042_w314h314c1cx2625cy1750cxt0cyt0cxb5250cyb3500.webp",
-        "username" => "Lisa",
         "category" => "Plats",
         "is_enabled" => true,
     ],
 ];
+
+function displayAuthor
 ?>
 
 <!DOCTYPE html>
